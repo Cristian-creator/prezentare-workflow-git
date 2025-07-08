@@ -1,0 +1,20 @@
+Reguli pentru denumirea branch-ului:
+
+1. incepi cu id-ul task-ului ( t-2 )
+2. adaugi slash ( / )
+3. titlul task-ului scris cu litere mici iar in loc de spatiile dintre cuvinte punem liniute
+   \*in numele branch-ului punem DOAR litere mici
+
+Faza 1 - incepi sa lucrezi la task
+
+1. deschizi VS Code fix in proiectul nostru ( in stanga sus trebuie sa vezi OVEIT-BADGES)
+2. git checkout main
+3. git pull
+4. git checkout -b "t-2/initializare-sistem-de-rutare" ( comanda asta iti creeaza un branch cu numele pus intre ghilimele si te si muta pe el)
+5. poti incepe sa rezolvi task-ul
+
+Faza 2 - faci update-uri pe task
+
+1. git add .
+2. git commit -m "mesaj"
+3. git push -u origin "t-2/initializare-sistem-de-rutare" ( comanda asta git push in forma extinsa este doar pentru primul push pe branch-ul asta. la orice push ulterior putem sa scriem doar git push shi athat )
